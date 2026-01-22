@@ -1,22 +1,22 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v8.0/win-x86",
+    "name": ".NETCoreApp,Version=v8.0/osx-arm64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {},
-    ".NETCoreApp,Version=v8.0/win-x86": {
+    ".NETCoreApp,Version=v8.0/osx-arm64": {
       "TestMidi/1.0.0": {
         "dependencies": {
           "Melanchall.DryWetMidi": "8.0.3",
-          "runtimepack.Microsoft.NETCore.App.Runtime.win-x86": "8.0.11"
+          "runtimepack.Microsoft.NETCore.App.Runtime.osx-arm64": "8.0.11"
         },
         "runtime": {
           "TestMidi.dll": {}
         }
       },
-      "runtimepack.Microsoft.NETCore.App.Runtime.win-x86/8.0.11": {
+      "runtimepack.Microsoft.NETCore.App.Runtime.osx-arm64/8.0.11": {
         "runtime": {
           "Microsoft.CSharp.dll": {
             "assemblyVersion": "8.0.0.0",
@@ -692,47 +692,47 @@
           }
         },
         "native": {
-          "Microsoft.DiaSymReader.Native.x86.dll": {
-            "fileVersion": "14.40.33810.0"
+          "createdump": {
+            "fileVersion": "0.0.0.0"
           },
-          "System.IO.Compression.Native.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libSystem.Globalization.Native.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "clretwrc.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libSystem.IO.Compression.Native.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "clrgc.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libSystem.Native.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "clrjit.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libSystem.Net.Security.Native.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "coreclr.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libSystem.Security.Cryptography.Native.Apple.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "createdump.exe": {
-            "fileVersion": "8.0.1124.51707"
+          "libSystem.Security.Cryptography.Native.OpenSsl.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "hostfxr.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libclrgc.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "hostpolicy.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libclrjit.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "mscordaccore.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libcoreclr.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "mscordaccore_x86_x86_8.0.1124.51707.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libhostfxr.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "mscordbi.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libhostpolicy.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "mscorrc.dll": {
-            "fileVersion": "8.0.1124.51707"
+          "libmscordaccore.dylib": {
+            "fileVersion": "0.0.0.0"
           },
-          "msquic.dll": {
-            "fileVersion": "2.3.5.0"
+          "libmscordbi.dylib": {
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -752,7 +752,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.NETCore.App.Runtime.win-x86/8.0.11": {
+    "runtimepack.Microsoft.NETCore.App.Runtime.osx-arm64/8.0.11": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
@@ -766,8 +766,10 @@
     }
   },
   "runtimes": {
-    "win-x86": [
-      "win",
+    "osx-arm64": [
+      "osx",
+      "unix-arm64",
+      "unix",
       "any",
       "base"
     ]
